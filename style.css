@@ -158,3 +158,62 @@ td img {
 td .btn::before {
     border-color: #fff;  
 }
+
+.our_advantages {
+    background: center / contain no-repeat url('img/our_advant.png') ;
+    height: 900px;
+    padding: 350px 0 0 350px;
+    text-align: left;
+}
+
+.h2.our_advantages_title {
+    text-align: left;
+    margin-bottom: 85px;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-template-rows: 110px 110px;
+}
+
+.advantage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 600;
+}
+
+.advantage_icon {
+    margin-right: 30px;
+}
+
+.form_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 940px;
+}
+
+.form_part {
+    background: center / contain no-repeat url('img/form_bg.png');
+    width: 935px;
+    height: 940px;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+    width: 510px;
+}
+
+.price_part {
+    background: #000;
+    width: 985px;
+    height: 940px;
+}
+
+.price_cards {
+    display: flex;
+    justify-content: flex-start;
+}
